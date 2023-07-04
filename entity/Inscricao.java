@@ -23,10 +23,6 @@ public class Inscricao {
     private Circuito circuito;
 
     @ManyToOne
-    @JoinColumn(name = "maratona_id")
-    private Maratona maratona;
-
-    @ManyToOne
     @JoinColumn(name = "maratonista_id")
     private Maratonista maratonista;
 

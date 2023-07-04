@@ -29,7 +29,7 @@ public class InscricaoController {
     }
 
     @PostMapping("salvar")
-    public Inscricao salvarInscricao(@RequestBody Inscricao inscricao) {
+    public double salvarInscricao(@RequestBody Inscricao inscricao) {
         return inscricaoService.salvarInscricao(inscricao);
     }
 }
